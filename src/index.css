@@ -1,0 +1,70 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+      background-color: rgb(19, 23, 34) !important;
+      color: rgb(255, 255, 255) !important;
+  }
+  .nav-brand{
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  .nav-special{
+    padding: 8px;
+    cursor: pointer;
+  }
+  .nav-link{
+    color: rgb(255, 255, 255) !important;
+    border-bottom: 1px solid transparent;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 3px 0 3px;
+  }
+  .navitem-Logout:hover,
+  .nav-link:hover{
+    color: rgb(97, 218, 251) !important;
+  }
+  .active{
+    color: rgb(97, 218, 251) !important;
+    border-bottom: 3px solid rgb(97, 218, 251) ;
+  }
+  .loading-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(19, 23, 34, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .form-body{
+    width: 75%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .form-input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .form-input:focus{
+    border-color: rgb(69, 37, 255);
+  }
+  @media (max-width: 1200px) and (min-width: 992px){
+  }
+  @media (max-width: 991px) and (min-width: 768px){
+    .form-body{
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px){
+    .form-body{
+      width: 100%;
+    }
+  }
+  
